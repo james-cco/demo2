@@ -14,8 +14,8 @@ jobs:
     steps:
       - name: 🧩 設定 Git 環境
         run: |
-          git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
+          git config --global user.email "james@cco.com.tw"
+          git config --global user.name "james-cco"
 
       - name: ⬇️ Clone 倉庫
         uses: actions/checkout@v4
@@ -24,7 +24,7 @@ jobs:
 
       - name: 🚀 添加 upstream 並同步
         run: |
-          git remote add upstream https://github.com/原始作者帳號/原始repo.git
+          git remote add upstream https://github.com/james-cco/demo2.git
           git fetch upstream
           git checkout main || git checkout -b main
           git merge upstream/main --no-edit || echo "✅ 沒有上游更新"

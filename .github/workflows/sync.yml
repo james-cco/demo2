@@ -2,7 +2,7 @@ name: 🔄 Auto Sync Upstream
 
 on:
   schedule:
-    - cron: '0 3 * * *' # 每天台灣時間上午 11 點觸發（UTC+8）
+    - cron: '0 4 * * *' # 每天台灣時間上午 11 點觸發（UTC+8）
   workflow_dispatch: # 允許手動觸發
 
 jobs:

@@ -20,12 +20,14 @@ npm install
 
 ```sh
 npm run dev
+const y = 2
 ```
 
 ### Compile and Minify for Production
 
 ```sh
 npm run build
+const t = 3
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
